@@ -4,12 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="format-detection" content="telephone=no">
-    <title>Jest Medya</title>
+    <title>Jest Medya - Ankara Reklam, Baskı, Toplu SMS, Web Tasarım</title>
     <meta name="author" content="Jest Medya">
     <meta name="description" content="Jest Medya">
     <meta name="keywords"
-        content="creative, works, showcase, portfolio, highlight, projects, parallax, agency, digital, studio, css, animation, transition, svg, html, css">
+        content="reklam ajansı,baskı,dijital matbaa,web tasarım,sms gönderim,toplu sms,ankara reklam,ankara medya ajansı">
 
     <!-- SOCIAL MEDIA META -->
     <meta property="og:description" content="Jest Medya Ajansı">
@@ -58,6 +57,10 @@
     <main>
         <ul class="hamburger-navigation">
             <li><a href="index">Ana Sayfa</a></li>
+            <li><a href="services">Hizmetlerimiz</a></li>
+            <li><a href="projects">Projelerimiz</a></li>
+            <li><a href="about">Hakkımızda</a></li>
+            <li><a href="blog">Blog</a></li>
         </ul>
         <!-- end hamburger-navigation -->
         <svg class="shape-overlays" viewBox="0 0 100 100" preserveAspectRatio="none">
@@ -68,7 +71,7 @@
         <header class="header">
             <div class="logo"><img src="images/logo.png" alt="Image"></div>
             <!-- end logo -->
-            <span class="phone">t: +90 123 456 7890</span>
+            <a href="tel:+905321726700"> <span class="phone">t:+90 (532) 172 6700</span> </a>
             <div class="hamburger" id="hamburger">
                 <div class="hamburger__line hamburger__line--01">
                     <div class="hamburger__line-in hamburger__line-in--01"></div>
@@ -88,14 +91,9 @@
             </div>
             <!-- end hamburger -->
 
-            <ul class="language">
-                <li><a href="#">EN</a></li>
-                <li><a href="#">TR</a></li>
-            </ul>
         </header>
         <ul class="social-bar">
-            <li><a href="#">FB</a></li>
-            <li><a href="#">TW</a></li>
-            <li><a href="#">YT</a></li>
-            <li><a href="#">BE</a></li>
+            <li><a href="https://www.facebook.com/jestmedyareklam/">FB</a></li>
+            <li><a href="https://instagram.com/jestmedya06">IG</a></li>
+            <li><a href="https://github.com/cbabuccuoglu">Git</a></li>
         </ul>

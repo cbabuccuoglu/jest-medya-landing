@@ -6,10 +6,10 @@
       <!-- end inner -->
       <div class="inner bg1 wow fadeInRight">
         <div class="contenty">
-          <h5>YENİ NESİL</h5>
-          <h2>Fikirden Gerçeğe...</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <a href="#"><span data-hover="FIND OUT MORE">Görüşme Ayarla</span></a> </div>
+          <h3>Jest Medya, Mobil İletişim Çözümleri alanında sektöre değer katmak ve Kurumsal SMS çözümleri sunmak üzere kesintisiz hizmet vermektedir.</h3>
+          <p>Sanayi ve teknolojide oluşan baş döndürücü değişim ve gelişmeler, özellikle iletişim, ulaşım ve firmamızın da içerisinde bulunduğu bilgi teknolojilerinde ortaya çıkan gelişmelerle beraber kalite arayışı güncelliğini arttırmış ve toplumumuzda yaygın bir olgu haline gelmiştir. Müşterilerimiz en tecrübeli, kullanımı en kolay, hızlı erişime ve teknik servise sahip olan, uygun fiyatlı mal ve hizmetleri tercih etmektedirler.</p>
+          <p> Kuruluşumuz bu müşteri taleplerini karşılayabilmek için kalite felsefelerini benimsemiş ve ilk şart olarak müşteri taleplerini karşılamak için değişmeyi göze almak ve sürekli gelişmek hedefini kalite politikası olarak benimsemiştir. Jest Medya, kaliteyi ve performansını sürekli iyileştirerek Pazar payını arttırmayı kendisine amaç edinmiş, kalite ve standart alanlarındaki yatırımları sayesinde hep bir adım önde gitmeyi başarmış kuruluştur. Jest Medya, Müşteri odaklı çalışmalarında müşteri gibi düşünmeyi kadrosuna aşılamış ve müşteri memnuniyetini her alanda sağlamayı, başarısını arttırabilmenin ilk şartı olarak belirlemiştir.</p>
+          <a href="contact"><span data-hover="TEKLİF AL">Görüşme Ayarla</span></a> </div>
         <!-- end content --> 
       </div>
       <!-- end inner --> 

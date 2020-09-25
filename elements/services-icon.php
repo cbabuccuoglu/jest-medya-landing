@@ -1,24 +1,34 @@
 <div class="icon-features">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 col-sm-4 col-12 wow fadeIn"> <img src="images/icon01.png" alt="Image"> <small>UI-UX</small>
-            
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <a href="#">Blog</a> </div>
-          <!-- end col-4 -->
-          <div class="col-md-4 col-sm-4 col-12 wow fadeIn" data-wow-delay="0.2s"> <img src="images/icon02.png" alt="Image"> <small>TEST</small>
-            
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <a href="#">Blog</a> </div>
-          <!-- end col-4 -->
-          <div class="col-md-4 col-sm-4 col-12 wow fadeIn" data-wow-delay="0.4s"> <img src="images/icon03.png" alt="Image"> <small>PAZARLAMA</small>
-            
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <a href="#">Randevu</a> </div>
-          <!-- end col-4 --> 
-        </div>
-        <!-- end row --> 
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-4 col-12 wow fadeIn"> <img src="images/icon02.png" alt="Image">
+        <small>Web Tasarım</small>
+
+        <p>Web sitesi takım elbise gibidir. İyi bir takım elbise sizlere daha iyi kapılar açar, iyi bir web sitesi de
+          sizlere daha iyi kapılar açar.</p>
+        <a href="/contact">Teklif Al</a>
       </div>
-      <!-- end container --> 
+      <!-- end col-4 -->
+      <div class="col-md-4 col-sm-4 col-12 wow fadeIn" data-wow-delay="0.2s"> <img src="images/icon01.png" alt="Image">
+        <small>Toplu SMS</small>
+
+        <p>E-ticaret sitenize, web sitenize ve uygulamalarınıza tamamen entegre olabilen API'miz sayesinde kendi
+          uygulamalarınızdan veya özel yazılımınız üzerinden SMS gönderebilirsiniz.</p>
+        <a href="/contact">Teklif Al</a>
+      </div>
+      <!-- end col-4 -->
+      <div class="col-md-4 col-sm-4 col-12 wow fadeIn" data-wow-delay="0.4s"> <img src="images/icon03.png" alt="Image">
+        <small>SEO & Adwords</small>
+
+        <p>Arama motorlarına yönelik yapılan iyileştirme ve optimizasyon çalışmaları; Google arama motoru, arama
+          orakları ve içerik ağından reklam sağlayan sistem kullanımıdır.</p>
+        <a href="/contact">Teklif Al</a>
+      </div>
+      <!-- end col-4 -->
     </div>
-    <!-- end icon-features -->
+
+    <!-- end row -->
+  </div>
+  <!-- end container -->
+</div>
+<!-- end icon-features -->

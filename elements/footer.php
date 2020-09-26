@@ -3,10 +3,9 @@
 <!-- end footer-spacing -->
 <footer class="footer"> <img src="images/logo.png" alt="Image">
     <ul class="social-media">
-        <li><a href="https://facebook.com">FB</a></li>
-        <li><a href="https://twitter.com">TW</a></li>
-        <li><a href="https://youtube.com">YT</a></li>
-        <li><a href="https://facebook.com">GH</a></li>
+        <li><a href="https://www.facebook.com/jestmedyareklam/">FB</a></li>
+        <li><a href="https://instagram.com/jestmedya06">IG</a></li>
+        <li><a href="https://github.com/cbabuccuoglu">Git</a></li>
     </ul>
     <div class="footer-bar"> <span class="pull-left">© 2020 Jest</span></div>
     <!-- end footer-bar -->

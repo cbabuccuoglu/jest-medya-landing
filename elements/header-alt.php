@@ -55,12 +55,14 @@
     <div class="transition-overlay"></div>
     <!-- end transition-overlay -->
     <main>
-        <ul class="hamburger-navigation">
-            <li><a href="index">Ana Sayfa</a></li>
-            <li><a href="services">Hizmetlerimiz</a></li>
-            <li><a href="projects">Projelerimiz</a></li>
-            <li><a href="about">Hakkımızda</a></li>
-            <li><a href="contact">Bize Ulaşın</a></li>
+    <ul class="hamburger-navigation">
+            <li><a href="index">ANA SAYFA</a></li>
+            <li><a href="http://mesajpaneli.com/login">MESAJ PANELI</a></li>
+            <li><a href="http://panel.jestmedya.com">MUSTERI PANELI</a></li>
+            <li><a href="services">HIZMETLERIMIZ</a></li>
+            <li><a href="projects">PROJELERIMIZ</a></li>
+            <li><a href="about">HAKKIMIZDA</a></li>
+            <li><a href="contact">BIZE ULASIN</a></li>
         </ul>
         <!-- end hamburger-navigation -->
         <svg class="shape-overlays" viewBox="0 0 100 100" preserveAspectRatio="none">

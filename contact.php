@@ -15,8 +15,8 @@
     <div class="col-md-6 col-sm-6 col-12 wow fadeIn">
       <div class="address">
       <h4>Ankara Ofisi</h4>
-      <p>+(90)532 172 6700<br>
-        <a href="mailto:iletisim@jestmedya.com">iletisim@jestmedya.com</a>
+      <p><a href="tel:+905321726700">+90 532-172-6700</a>
+        <br><a href="mailto:iletisim@jestmedya.com">iletisim@jestmedya.com</a>
       </p>
       </div>
       <!-- end address -->

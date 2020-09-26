@@ -1,5 +1,5 @@
 <?php 
-  include "./elements/header.php"; // Header
+  include "./elements/header-alt.php"; // Header
   include "./elements/slider.php";// Slider
 ?>
   <section class="content">

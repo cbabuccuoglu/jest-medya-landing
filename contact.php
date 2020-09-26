@@ -1,4 +1,4 @@
-<?php include $_SERVER['DOCUMENT_ROOT']."/elements/header.php"; ?>
+<?php include "./elements/header.php"; ?>
 </section>
 <!-- end int-hero -->
 <section class="content">
@@ -102,4 +102,4 @@
 <!-- end contact -->
 </section>
 <!-- end content -->
-<?php include $_SERVER['DOCUMENT_ROOT']."/elements/footer.php"; ?>
+<?php include "./elements/footer.php"; ?>

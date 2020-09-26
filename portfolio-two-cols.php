@@ -1,4 +1,4 @@
-<?php include $_SERVER['DOCUMENT_ROOT']."/elements/header.php"; ?>
+<?php include "./elements/header.php"; ?>
   <section class="int-hero">
     <div class="video-bg">
       <video src="videos/video.mp4" muted autoplay loop></video>
@@ -145,4 +145,4 @@
     <!-- end works --> 
   </section>
   <!-- end content --> 
-  <?php include $_SERVER['DOCUMENT_ROOT']."/elements/footer.php"; ?>
+  <?php include "./elements/footer.php"; ?>

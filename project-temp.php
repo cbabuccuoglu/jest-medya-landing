@@ -1,4 +1,4 @@
-<?php include $_SERVER['DOCUMENT_ROOT']."/elements/header.php"; ?>
+<?php include "./elements/header.php"; ?>
 <section class="project-hero">
 	<figure><img src="images/works02.jpg" alt="Image">
 	<figcaption><h2>Fiverr App</h2></figcaption></figure>
@@ -60,4 +60,4 @@ So here is what I am playing around, it toggles the Fixed style, but it does not
 <!-- end project-detail -->
 </section>
 <!-- end content -->
-<?php include $_SERVER['DOCUMENT_ROOT']."/elements/footer.php"; ?>
+<?php include "./elements/footer.php"; ?>

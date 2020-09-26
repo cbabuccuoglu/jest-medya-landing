@@ -77,4 +77,5 @@
 <!-- end contact -->
 </section>
 <!-- end content -->
+<script src="js/contact.form.min.js"></script>
 <?php include "./elements/footer.php"; ?>

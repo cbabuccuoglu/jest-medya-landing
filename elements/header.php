@@ -41,6 +41,10 @@
     <link rel="stylesheet" href="css/fancybox.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- SMS PAGE ASSETS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    
 </head>
 
 <body>
@@ -57,11 +61,11 @@
     <main>
         <ul class="hamburger-navigation">
             <li><a href="index">ANA SAYFA</a></li>
-            <li><a href="http://mesajpaneli.com/login">MUSTERI PANELI</a></li>
-            <li><a href="http://panel.jestmedya.com"><i class="far fa-comment-alt"></i>MUSTERI PANELI v2</a></li>
-            <li><a href="services">HIZMETLERIMIZ</a></li>
+            <li><a href="toplu-sms">TOPLU SMS</a></li>
+            <li><a href="web-tasarim">WEB TASARIM</a></li>
+            <li><a href="marka-yonetimi">SOSYAL MEDYA</a></li>
+            <li><a href="dijital-baski-matbaa">DIJITAL BASKI - MATBAA</a></li>
             <li><a href="about">HAKKIMIZDA</a></li>
-            <li><a href="contact">BIZE ULASIN</a></li>
         </ul>
         <!-- end hamburger-navigation -->
         <svg class="shape-overlays" viewBox="0 0 100 100" preserveAspectRatio="none">

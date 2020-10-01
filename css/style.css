@@ -59,8 +59,8 @@ theme.
 
 
 /* GOOGLE FONTS */
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Fjalla+One|Poppins:300,400,500,600,700,900&subset=latin-ext');
 
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,300;1,400;1,500;1,600;1,700;1,900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
 
 /* BODY */
 *{outline: none !important}
@@ -502,7 +502,7 @@ background-image: -ms-linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(19,19,20,
 .awards figure:after{content: ""; width: 40px; height: 3px; background: #f50c1a; position: absolute; left: 50%; bottom:0; margin-left: -20px;}
 .awards figure img{ width: 100%; float: left; opacity: 0.5; }
 .awards .award{ width: 100%; float: left; border: 1px solid #eee; padding-bottom: 20px;}
-.awards .odometer{ display: block; text-align: center; font-family: "Fjalla One"; font-size: 30px;}
+.awards .odometer{ display: block; text-align: center; font-family: "Montserrat"; font-size: 30px;}
 
 
 
@@ -587,7 +587,7 @@ background-image: -ms-linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(19,19,20,
 .journal .post-comment .comments .comment .comment-content{ width: calc(100% - 80px); float: left;}
 .journal .post-comment .comments .comment .comment-content h4{font-family:'Playfair Display', serif; font-size: 18px;}
 .journal .post-comment .comments .comment .comment-content p{opacity: 0.7;}
-.journal .post-comment .comments .comment .comment-content small{font-family: 'Fjalla One', sans-serif; text-transform: uppercase;}
+.journal .post-comment .comments .comment .comment-content small{font-family: 'Montserrat', sans-serif; text-transform: uppercase;}
 .journal .post-comment .comments .comment .comment-content a{ float: right; font-weight: 600; font-size: 12px; padding: 4px 8px; border: 1px solid #eee; color: #131314;}
 .journal .post-comment textarea{ width: 100%;}
 .journal .post-comment .comment-form{ width: 100%; float: left; margin-top: 40px;}
@@ -636,9 +636,9 @@ background-image: -ms-linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(19,19,20,
 .footer .social-media{ width: 100%; float: left; display: none; text-align: center; margin-bottom: 20px; padding: 0;}
 .footer .social-media li{display: inline-block; margin: 0 10px; list-style: none;}
 .footer .social-media li a{ float: left; font-size: 12px; font-weight: 600; color: #fff;}
-.footer .social-media li a:hover{text-decoration: none; color: #f50c1a;}}
+.footer .social-media li a:hover{text-decoration: none; color: #f50c1a;}
 .footer h4{font-weight: 300; letter-spacing: -1px; font-size: 2em;}
-.footer h2{ font-family: "Fjalla One"; text-transform: uppercase; font-size: 4em; margin-bottom: 30px; padding: 0 10%;}
+.footer h2{ font-family: "Montserrat"; text-transform: uppercase; font-size: 4em; margin-bottom: 30px; padding: 0 10%;}
 .footer .btn-contact{height: 60px; line-height: 58px; display: inline-block; border: 1px solid rgba(255,255,255,0.2); padding: 0 40px; font-size: 11px; font-weight: 700; color: #fff; margin-bottom: 30px; overflow: hidden;}
 .footer .btn-contact *{-webkit-transition: .25s ease-in-out;-moz-transition: .25s ease-in-out;-ms-transition: .25s ease-in-out; -o-transition: .25s ease-in-out; transition: .25s ease-in-out;}
 .footer .btn-contact span { position: relative; display: inline-block;}
@@ -696,9 +696,6 @@ background-image: -ms-linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(19,19,20,
 	
 }
 
-
-
-
 /* RESPONSIVE MOBILE FIXES */
 @media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
 	.header{padding: 30px;}
@@ -748,6 +745,57 @@ background-image: -ms-linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(19,19,20,
 	.footer .footer-bar span{ width: 100%; text-align: center;}
 }
 
-
-
-
+/* SMS PAGE STYLING */
+.sms-container {
+	padding: 20px;
+  }
+  
+  .sms {
+	position: relative;
+	display: block;
+	max-width: 300px;
+	padding: 10px 20px;
+	color: white;
+	font-size: 24px;
+	text-align: center;
+	text-decoration: none;
+	border: 3px solid white;
+	overflow: hidden;
+	-webkit-transition: color 150ms ease-in-out 150ms, border-color 300ms ease-out, box-shadow 300ms ease-in-out;
+	transition: color 150ms ease-in-out 150ms, border-color 300ms ease-out, box-shadow 300ms ease-in-out;
+	z-index: 1;
+  }
+  .sms.center {
+	margin: 0 auto;
+  }
+  .sms:after {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	z-index: -1;
+	-webkit-transform: scaleX(0);
+			transform: scaleX(0);
+	-webkit-transition: -webkit-transform 300ms ease-out 200ms;
+	transition: -webkit-transform 300ms ease-out 200ms;
+	transition: transform 300ms ease-out 200ms;
+	transition: transform 300ms ease-out 200ms, -webkit-transform 300ms ease-out 200ms;
+  }
+  .sms:hover {
+	color: black;
+	border-color: #9a1a18;
+	box-shadow: 0 0 16px rgba(255, 255, 255, 0.1);
+  }
+  .sms:hover:after {
+	-webkit-transform: scaleX(1);
+			transform: scaleX(1);
+	-webkit-transform-origin: 50% 50%;
+			transform-origin: 50% 50%;
+	-webkit-transition: -webkit-transform 300ms ease-out;
+	transition: -webkit-transform 300ms ease-out;
+	transition: transform 300ms ease-out;
+	transition: transform 300ms ease-out, -webkit-transform 300ms ease-out;
+  }

@@ -7,8 +7,7 @@
   <title>Jest Medya - Ankara Reklam, Baskı, Toplu SMS, Web Tasarım</title>
   <meta name="author" content="Jest Medya">
   <meta name="description" content="Jest Medya">
-  <meta name="keywords"
-    content="reklam ajansı,baskı,dijital matbaa,web tasarım,sms gönderim,toplu sms,ankara reklam,ankara medya ajansı">
+  <meta name="keywords" content="reklam ajansı,baskı,dijital matbaa,web tasarım,sms gönderim,toplu sms,ankara reklam,ankara medya ajansı">
 
   <!-- SOCIAL MEDIA META -->
   <meta property="og:description" content="Jest Medya Ajansı">
@@ -41,6 +40,7 @@
   <link rel="stylesheet" href="css/fancybox.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/button-style.css">
 
   <!-- SMS PAGE ASSETS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
@@ -77,8 +77,8 @@
       <div class="logo"><img src="images/logo.png" alt="Image"></div>
       <!-- end logo -->
       <a href="tel:+905321726700"> <span class="phone">t:+90 (532) 172 6700</span> </a>
-      <div style="position: fixed; top:2rem; right:2rem;" class="hamburger" id="hamburger">
-        <div class="hamburger__line hamburger__line--01">  
+      <div class="hamburger" id="hamburger">
+        <div class="hamburger__line hamburger__line--01">
           <div class="hamburger__line-in hamburger__line-in--01"></div>
         </div>
         <div class="hamburger__line hamburger__line--02">
@@ -103,10 +103,56 @@
       <li><a href="https://github.com/cbabuccuoglu">Git</a></li>
     </ul>
 
-    <section class="content">
-
+    <section class="int-hero">
+      <div class="inner">
+        <h2>Toplu SMS ile gerçek potansiyelinizi açığa çıkarın</h2>
+      </div>
+      <!-- end inner -->
     </section>
 
-<?php 
-  include "./elements/footer.php"; // Footer
-?>
+    <section class="content">
+      <div style="margin-left:6vh;" class="row text-white text-center">
+        <div class="column">
+          <h1>Neden Toplu SMS?</h1>
+          <p>
+            İşinizi geliştirmek ve gelirinizi arttırma konusunda personellerinizin, iş ve çözüm ortaklarınızın ve kullandığınız araçların önemi büyük. <br>Sadece değişen rekabetçi ortama uyum sağlamak için değil aynı zamanda bu değişime yön vermek için de personellerinizin, iş ve çözüm ortaklarınızın ve kullandığınız araçların nitelikleri kritik bir öneme sahiptir.
+          </p>
+        </div>
+        <div class="column">
+          <a style="text-decoration: none;" target="_blank" href="http://mesajpaneli.com/login">
+            <div class="button-glow"></div>
+          </a>
+          <span>&nbsp;</span>
+          <a style="text-decoration: none;" target="_blank" href="http://panel.jestmedya.com">
+            <div id="button-glow-2"></div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div class="footer-spacing"></div>
+  <!-- end footer-spacing -->
+  <!-- JS FILES -->
+  <script src="js/jquery.min.js"></script>
+  <script>
+    // PRELOADER
+    (function($) {
+      $(window).load(function() {
+        $("body").addClass("page-loaded");
+      });
+    })(jQuery)
+  </script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/swiper.min.js"></script>
+  <script src="js/fancybox.min.js"></script>
+  <script src="js/jquery.stellar.js"></script>
+  <script src="js/odometer.min.js"></script>
+  <script src="js/hamburger.min.js"></script>
+  <script src="js/easings.js"></script>
+  <script src="js/isotope.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/perspective.min.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>

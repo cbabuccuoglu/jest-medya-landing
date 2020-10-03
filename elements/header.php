@@ -74,7 +74,7 @@
             <path class="shape-overlays__path" d=""></path>
         </svg>
         <header class="header">
-            <div class="logo"><img src="images/logo.png" alt="Image"></div>
+            <div class="logo"><a href="index"><img src="images/logo.png" alt="Image"></a></div>
             <!-- end logo -->
             <a href="tel:+905321726700"> <span class="phone">t:+90 (532) 172 6700</span> </a>
             <div class="hamburger" id="hamburger">

@@ -7,8 +7,7 @@
     <title>Jest Medya - Ankara Reklam, Baskı, Toplu SMS, Web Tasarım</title>
     <meta name="author" content="Jest Medya">
     <meta name="description" content="Jest Medya">
-    <meta name="keywords"
-        content="reklam ajansı,baskı,dijital matbaa,web tasarım,sms gönderim,toplu sms,ankara reklam,ankara medya ajansı">
+    <meta name="keywords" content="reklam ajansı,baskı,dijital matbaa,web tasarım,sms gönderim,toplu sms,ankara reklam,ankara medya ajansı">
 
     <!-- SOCIAL MEDIA META -->
     <meta property="og:description" content="Jest Medya Ajansı">
@@ -44,7 +43,7 @@
 
     <!-- SMS PAGE ASSETS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-    
+
 </head>
 
 <body>
@@ -65,7 +64,7 @@
             <li><a href="web-tasarim">WEB TASARIM</a></li>
             <li><a href="marka-yonetimi">SOSYAL MEDYA</a></li>
             <li><a href="dijital-baski-matbaa">DIJITAL BASKI - MATBAA</a></li>
-            <li><a href="about">HAKKIMIZDA</a></li>
+            <li><a href="contact">ILETISIM</a></li>
         </ul>
         <!-- end hamburger-navigation -->
         <svg class="shape-overlays" viewBox="0 0 100 100" preserveAspectRatio="none">
@@ -74,7 +73,7 @@
             <path class="shape-overlays__path" d=""></path>
         </svg>
         <header class="header">
-            <div class="logo"><a href="index"><img src="images/logo.png" alt="Image"></a></div>
+            <div class="logo"><a href="index"><img src="images/logo.png" alt="logo"></a></div>
             <!-- end logo -->
             <a href="tel:+905321726700"> <span class="phone">t:+90 (532) 172 6700</span> </a>
             <div class="hamburger" id="hamburger">
